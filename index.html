@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Gallery</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- main -->
+    <main class="section main">
+      <div class="section-center checkout-title">
+        <h3>checkout</h3>
+      </div>
+
+      <div class="section-center main-center">
+        <!-- checkout section -->
+        <section class="section-center checkout-center">
+          <!-- checkout -->
+          <div class="checkout">
+            <div class="products">
+              <!-- single product -->
+              <article class="product">
+                <img
+                  src="images/photo1.png"
+                  alt="product img"
+                  class="img product-img"
+                />
+                <div class="product-details">
+                  <div>
+                    <h4 class="name">vintage backpack</h4>
+                    <div class="prices">
+                      <h4 class="new">$54.99</h4>
+                      <h4 class="old">$94.99</h4>
+                    </div>
+                  </div>
+                  <!-- counter -->
+                  <div class="counter">
+                    <div class="dec">-</div>
+                    <div class="num">1</div>
+                    <div class="inc">+</div>
+                  </div>
+                </div>
+              </article>
+              <!-- end of single product -->
+              <!-- single product -->
+              <article class="product">
+                <img
+                  src="images/photo2.png"
+                  alt="product img"
+                  class="img product-img"
+                />
+                <div class="product-details">
+                  <div>
+                    <h4 class="name">Levi shoes</h4>
+                    <div class="prices">
+                      <h4 class="new">$74.99</h4>
+                      <h4 class="old">$124.99</h4>
+                    </div>
+                  </div>
+                  <!-- counter -->
+                  <div class="counter">
+                    <div class="dec">-</div>
+                    <div class="num">1</div>
+                    <div class="inc">+</div>
+                  </div>
+                </div>
+              </article>
+              <!-- end of single product -->
+            </div>
+            <div class="checkout-footer">
+              <!-- line -->
+              <div class="line"></div>
+
+              <div class="title shipping">
+                <h4>shipping</h4>
+                <span>$19</span>
+              </div>
+
+              <!-- line -->
+              <div class="line"></div>
+
+              <div class="title total">
+                <h4>total</h4>
+                <span>$148.98</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end of checkout -->
+
+        <!-- form -->
+        <form class="section form">
+          <div class="section-center form-center">
+            <!-- form section -->
+            <section class="form-section">
+              <h4>contact information</h4>
+              <!-- form group -->
+              <div class="form-group">
+                <label for="email" class="form-label">E-mail</label>
+                <div class="input-group">
+                  <i class="fas fa-envelope"></i>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email..."
+                  />
+                </div>
+              </div>
+              <!-- end of form group -->
+              <!-- form group -->
+              <div class="form-group">
+                <label for="phone" class="form-label">Phone</label>
+                <div class="input-group">
+                  <i class="fas fa-phone flip"></i>
+                  <input
+                    type="phone"
+                    id="phone"
+                    placeholder="Enter your phone..."
+                  />
+                </div>
+              </div>
+              <!-- end of form group -->
+            </section>
+            <!-- end of form section -->
+
+            <!-- form section -->
+            <section class="form-section section-2">
+              <h4>Shipping address</h4>
+              <!-- form group -->
+              <div class="form-group">
+                <label for="name" class="form-label">Full name</label>
+                <div class="input-group">
+                  <i class="fas fa-user"></i>
+                  <input type="email" id="name" placeholder="Rodney Cotton" />
+                </div>
+              </div>
+              <!-- end of form group -->
+              <!-- form group -->
+              <div class="form-group">
+                <label for="address" class="form-label">Address</label>
+                <div class="input-group">
+                  <i class="fas fa-home"></i>
+                  <input
+                    type="text"
+                    id="address"
+                    placeholder="Your address..."
+                  />
+                </div>
+              </div>
+              <!-- end of form group -->
+              <!-- form group -->
+              <div class="form-group">
+                <label for="city" class="form-label">Address</label>
+                <div class="input-group">
+                  <i class="fas fa-home"></i>
+                  <input type="text" id="city" placeholder="Your city..." />
+                </div>
+              </div>
+              <!-- end of form group -->
+              <div class="f-g">
+                <!-- form group -->
+                <div class="form-group">
+                  <label for="country" class="form-label">Country</label>
+                  <div class="input-group">
+                    <i class="fas fa-globe"></i>
+                    <input
+                      type="text"
+                      id="country"
+                      placeholder="Your country..."
+                    />
+                  </div>
+                </div>
+                <!-- end of form group -->
+                <!-- form group -->
+                <div class="form-group">
+                  <label for="postal" class="form-label">Postal code</label>
+                  <div class="input-group">
+                    <i class="fas fa-inbox"></i>
+                    <input
+                      type="text"
+                      id="postal"
+                      placeholder="Your postal code..."
+                    />
+                  </div>
+                </div>
+                <!-- end of form group -->
+              </div>
+            </section>
+            <!-- end of form section -->
+            <div class="form-group checkbox">
+              <input type="checkbox" id="next" />
+              <label class="form-label" for="next"
+                >Save this information for next time</label
+              >
+            </div>
+            <!-- button -->
+            <div class="form-btn">
+              <button class="btn">continue</button>
+            </div>
+          </div>
+        </form>
+        <!-- end of form-->
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>
+        created by
+        <a href="https://github.com/roqtund1" id="username">roqtund1</a>-
+        devChallenges.io
+      </p>
+    </footer>
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
+</html>
